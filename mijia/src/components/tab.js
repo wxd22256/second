@@ -3,10 +3,19 @@ import { NavLink ,withRouter} from "react-router-dom";
 import "./tab.less"
 function Tab(props) {
     let pathname = props.location.pathname;
+<<<<<<< HEAD
     let flag = /(search)|(detail)/.test(pathname);
     if(flag) {
         return null;
     }
+=======
+    
+    let flag = /search|notlogin/.test(pathname);
+    if(flag) {
+        return null;
+    }
+    
+>>>>>>> 83fff4391d6fe6c0b9c1bfb048f87be65b8fc5cb
     return <div className="tab" >
         <NavLink className="link" to="/home">
             <i className="icon"></i>

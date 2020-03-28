@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import { connect } from "react-redux"
 import actions from "../../store/actions/index"
 import "./taste.less"
@@ -23,3 +24,9 @@ function Taste(props) {
     </div>
 }
 export default connect(state => state.taste, actions.taste)(Taste);
+=======
+function Taste(){
+    return <div></div>
+}
+export default Taste;
+>>>>>>> 83fff4391d6fe6c0b9c1bfb048f87be65b8fc5cb
