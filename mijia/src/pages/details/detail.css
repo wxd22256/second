@@ -1,0 +1,72 @@
+.detail_box {
+  width: 100%;
+  background: #eee;
+}
+.detail_box a {
+  position: fixed;
+  color: #000;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  display: block;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.5rem;
+  border: 0.01rem solid #eee;
+  z-index: 999;
+}
+.detail_box a:nth-child(2) {
+  right: 0;
+}
+.detail_box .detail {
+  width: 100%;
+}
+.detail_box .detail div {
+  background: #fff;
+}
+.detail_box .detail img {
+  width: 100%;
+}
+.detail_box .detail h2 {
+  border-top: 0.1rem solid #eee;
+  padding: 0 0.2rem;
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+}
+.detail_box .detail p {
+  padding: 0 0.2rem;
+  margin: 0.1rem 0;
+  font-size: 0.28rem;
+}
+.detail_box .detail h3 {
+  padding: 0 0.2rem;
+  font-size: 0.44rem;
+  color: red;
+  line-height: 0.8rem;
+}
+.detail_box .list {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1rem;
+  text-align: center;
+}
+.detail_box .list li:nth-child(1),
+.detail_box .list li:nth-child(2) {
+  font-size: 0.28rem;
+  flex: 1;
+}
+.detail_box .list li:nth-child(3),
+.detail_box .list li:nth-child(4) {
+  font-size: 0.4rem;
+  line-height: 1rem;
+  flex: 2;
+  color: #fff;
+  background: red;
+}
+.detail_box .list li:nth-child(4) {
+  background: #b37842;
+}

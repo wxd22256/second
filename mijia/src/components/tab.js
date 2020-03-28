@@ -3,7 +3,7 @@ import { NavLink ,withRouter} from "react-router-dom";
 import "./tab.less"
 function Tab(props) {
     let pathname = props.location.pathname;
-    let flag = /search/.test(pathname);
+    let flag = /(search)|(detail)/.test(pathname);
     if(flag) {
         return null;
     }

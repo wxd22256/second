@@ -7,9 +7,9 @@ let homeAction = {
             dispatch({type:types.HOME_INIT,initData:data})
         }
     },
-    queryHot(){
+    queryHot(id){
         return async dispatch=>{
-            let data = await api.home.queryMain();
+            let data = await api.home.queryMain(id);
             dispatch({type:types.HOME_HOT,data:data})
         }
     }
